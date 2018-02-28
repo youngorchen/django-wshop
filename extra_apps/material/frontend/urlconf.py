@@ -5,6 +5,7 @@ try:
 except:
     from urllib import quote
 
+
 from django.core.urlresolvers import RegexURLResolver, Resolver404
 from django.http.request import QueryDict
 from django.utils import six

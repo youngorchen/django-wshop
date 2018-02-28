@@ -1,6 +1,7 @@
 from django.apps import AppConfig
 from django.contrib import admin
 from django.core.urlresolvers import reverse
+#from django.urls import reverse
 from django.utils.translation import ugettext_lazy as _
 
 from ..frontend.apps import ModuleMixin

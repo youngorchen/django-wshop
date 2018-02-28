@@ -40,6 +40,17 @@ material 不能使用第三方组件，费了好大劲加上了富文本
 
 
 
+    大家自行clone，然后运行，我这里简单介绍clone下来后，安装方面需要注意的问题
+
+    首先需要安装相关数据库，我这里用mysql做示范(鉴于大家的普遍使用), ubuntu安装参考, 然后创建一个名为django-wshop的数据库
+    (可选)redis 安装， 安装参考，然后启动redis
+    新建一个虚拟环境，然后安装相关模块pip install -r requirements.txt
+    初始化表python manage.py migrate
+    最后运行python manage.py runserver
+
+
+
+
 
 
 
